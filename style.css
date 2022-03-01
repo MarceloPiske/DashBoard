@@ -145,7 +145,6 @@ b{
 
 aside {
     height: 100vh;
-    position: sticky;
     /* background-color: gray; */
 
 }
@@ -561,7 +560,7 @@ main .recent-orders a{
 @media screen and (max-width: 1200px){
     .container{
         width: 94%;
-        grid-template-columns: 7rem auto 23rem;
+        grid-template-columns: 5rem auto 23rem;
     }
 
     aside .logo h2{
@@ -584,12 +583,14 @@ main .recent-orders a{
     aside .sidebar .message-count{
         background: var(--color-danger);
         color: var(--color-white);
-        padding: 5px ;
+        padding:3px ;
         font-size: 9px;
         width: 10px;
         height: 10px;
         border-radius: 50%;
         z-index: 3;
+        position: absolute;
+        transform: translate(50%, -50%);
     }
 
     main .insights{
