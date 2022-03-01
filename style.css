@@ -632,12 +632,16 @@ main .recent-orders a{
     .right .top .theme-toggler{
         width: 4.4rem;
         position: absolute;
-        left: 66%;
+        right: 4.4rem;
     }
     .right .profile .info{
         display: none;
     }
-    
+    .profile-photo{
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
     .right .top button{
         display: inline-block;
         background:transparent;
