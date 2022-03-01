@@ -24,6 +24,15 @@
 
     --box-shandow: 0 2rem 3rem var(--color-ligth);
 }
+/* ===========dark theme variables ============ */
+.dark-theme-variables{
+    --color-background: #181a1e;
+    --color-white: #202528;
+    --color-dark: #edeffd;
+    --color-dark-variant: #a3bdcc;
+    --color-light: rgba(0, 0, 0, 0.4);
+    --box-shandow: 0 2rem 3rem var(--color-ligth);
+}
 
 * {
     margin: 0;
@@ -70,14 +79,17 @@ img {
 h1 {
     font-weight: 800; /* pesquise sobre */
     font-size: 1.8rem;
+    color: var(--color-dark);
 }
 
 h2 {
     font-size: 1.4rem;
+    color: var(--color-dark);
 }
 
 h3 {
     font-size: 0.87rem;
+    color: var(--color-dark);
 }
 
 h4 {
@@ -138,7 +150,7 @@ aside {
 }
 
 aside .top{
-    background: white;
+    background: var(--color-white);
     display: flex;
     align-items: center;
     justify-content: space-between; /* pesquisar sobre */
@@ -161,7 +173,7 @@ aside .close{
 
 /* ============ SIDEBAR =========== */
 aside .sidebar{
-    background: white;
+    background: var(--color-white);
     display: flex;
     flex-direction: column;
     height: 86vh;
